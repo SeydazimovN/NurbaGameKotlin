@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.root.nurbagamekotlin.PrimeORComposite">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/givenNumber"
+            android:gravity="center"
+            tools:text="some number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30sp">
+            <Button
+                android:id="@+id/primeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prime"
+                android:layout_marginRight="10sp"/>
+            <Button
+                android:id="@+id/compositeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="composite"
+                android:layout_marginLeft="10sp"/>
+        </LinearLayout>
+
+
+</LinearLayout>
